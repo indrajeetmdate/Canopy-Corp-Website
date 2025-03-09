@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canopy Corporation</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            window.addEventListener("scroll", function () {
+                let nav = document.querySelector("nav");
+                if (window.scrollY > 50) {
+                    nav.classList.add("scrolled");
+                } else {
+                    nav.classList.remove("scrolled");
+                }
+            });
+        });
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -51,7 +63,7 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Address: 32/2B Erandwane, Shramasafalya society, 'Yashwant' Pune, Maharashtra</p>
+        <p>Address: Pune, Maharashtra</p>
         <p>Phone: +91 8965340980</p>
         <p>Email: <a href="mailto:indrajeet.date@canopycorp.in">indrajeet.date@canopycorp.in</a>, <a href="mailto:canopycorp.pune@gmail.com">canopycorp.pune@gmail.com</a></p>
         <form>
