@@ -96,34 +96,6 @@ section {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Comparison Table */
-#comparison {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-table {
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-}
-
-th {
-    background: #4CAF50;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background: #f2f2f2;
-}
-
 /* Vision Section */
 #vision {
     background: #2E7D32;
